@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Мария",
+    "pet": "кошки",
+    "keyWords": ["кошки", "Савеловский", "всё включено", "С выездом", "На дому"],
+    "area": "Савеловский",
+    "salary": "1000",
+    "age": "27",
+    "sex": "female",
+    "food": "всё включено",
+    "jobFormat": ["С выездом", "На дому"],
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
+    "id": "0"
+  },
+  {
+    "name": "Дарья",
+    "pet": "собаки",
+    "keyWords": ["собаки", "Люберцы", "со своей едой", "С выездом", "На дому"],
+    "area": "Люберцы",
+    "salary": "2000",
+    "age": "34",
+    "sex": "female",
+    "food": "со своей едой",
+    "jobFormat": ["С выездом", "На дому"],
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
+    "id": "1"
+  },
+  {
+    "name": "Виталий",
+    "pet": "морские свинки",
+    "keyWords": ["морские свинки", "Бибирево", "со своей едой", "С выездом", "На дому"],
+    "area": "Бибирево",
+    "salary": "1500",
+    "age": "29",
+    "sex": "male",
+    "food": "со своей едой",
+    "jobFormat": ["С выездом", "На дому"],
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
+    "id": "2"
+  },
+  {
+    "name": "Анна",
+    "pet": "попугаи",
+    "keyWords": ["попугаи", "Бибирево", "со своей едой", "С выездом", "На дому"],
+    "area": "Войковский",
+    "salary": "500",
+    "age": "25",
+    "sex": "female",
+    "food": "со своей едой",
+    "jobFormat": ["С выездом", "На дому"],
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
+    "id": "3"
+  }
+]
