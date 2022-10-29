@@ -10,35 +10,35 @@
     "sex": "female",
     "food": "всё включено",
     "jobFormat": ["С выездом", "На дому"],
-    "photo": "https://verilymag.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc2MjM2OTY2NjI1NTUyMjYz/anna-tello-x_fwega1eu0-unsplash.jpg",
+    "photo": "https://i.pinimg.com/736x/57/68/53/57685326c1c87baed4ec75f629f00f2b.jpg",
     "id": "0"
   },
   {
     "name": "Дарья",
     "pet": "собаки",
-    "keyWords": ["собаки", "Люберцы", "со своей едой", "С выездом", "На дому"],
+    "keyWords": ["собаки", "Люберцы", "всё включено", "С выездом", "На дому"],
     "area": "Люберцы",
     "experience": 2,
     "salary": "2000",
     "age": "34",
     "sex": "female",
-    "food": "со своей едой",
+    "food": "всё включено",
     "jobFormat": ["С выездом", "На дому"],
-    "photo": "https://ichef.bbci.co.uk/images/ic/480xn/p04ym3kh.jpg",
+    "photo": "https://i.pinimg.com/originals/47/8b/2e/478b2e405ce5fb8c5a8e1d080cc578b0.png",
     "id": "1"
   },
   {
-    "name": "Виталий",
+    "name": "Вера",
     "pet": "морские свинки",
     "keyWords": ["морские свинки", "Бибирево", "со своей едой", "С выездом", "На дому"],
     "area": "Бибирево",
     "experience": 5,
     "salary": "1500",
     "age": "29",
-    "sex": "male",
+    "sex": "female",
     "food": "со своей едой",
     "jobFormat": ["С выездом", "На дому"],
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
+    "photo": "https://i0.wp.com/squeakdreams.com/wp-content/uploads/2020/11/Me.jpg?w=800&ssl=1",
     "id": "2"
   },
   {
@@ -52,7 +52,7 @@
     "sex": "female",
     "food": "со своей едой",
     "jobFormat": ["С выездом", "На дому"],
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
+    "photo": "https://img.freepik.com/premium-photo/mom-son-feed-parrot-park-spending-time-with-kids-concept_247622-19504.jpg?w=360",
     "id": "3"
   }
 ]
