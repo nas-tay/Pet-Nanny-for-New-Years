@@ -108,7 +108,7 @@
 .search__card {
   max-width: 100%;
   margin-top: 20px;
-  padding: 20px;
+  padding: 20px 150px;
   border: 1px rgb(206, 206, 206) solid;
   box-shadow: 15px 10px 20px 10px rgb(240, 240, 240);
   border-radius: 10px;
@@ -118,8 +118,8 @@
 
 .search__card-photo {
   border-radius: 100px;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 189px;
   object-fit: cover;
 }
 
