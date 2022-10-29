@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -12,82 +12,81 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css" />
     <title>Document</title>
 
     <!-- Цветовая с шариками 1803, желтый из коктейлей -->
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-
+    <header class="header">
+      <section class="top-nav">
+        <div><img src="./src/pictures/pet (1).png" /></div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li>Почему вы здесь</li>
+          <li>У нас есть решение!</li>
+          <li>Те кто будут рады вам помочь</li>
+          <li>Найти няню</li>
+          <li>Оставить заявку</li>
+        </ul>
+      </section>
     </header>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
-          </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
         </div>
       </div>
+    </div>
+    <div>
+      <!-- ______________БОЛЬ___КЛИЕНТА________________Текст Арина-->
 
-      <div>
-        <!-- ______________БОЛЬ___КЛИЕНТА________________Текст Арина-->
-      </div>
+<ol class="ball">
+  <li><a href="#">Хочется уехать в отпуск, но не с кем оставить своего любимца</a></li>
+  <li><a href="#">Хочется громкого праздника, но питомец боится громких звуков</a></li>
+  <li><a href="#">Приехали гости, у которых аллергия</a></li>
+  <li><a href="#">Хочется немного безответственности в праздник</a></li>
+</ol>
 
-      <div>
-        <!-- ______________ЗНАЕМ___РЕШЕНИЕ________________ -->
+    </div>
+
+    <div>
+      <!-- ______________ЗНАЕМ___РЕШЕНИЕ________________ -->
+    </div>
+    <div>
+      <!-- ______________АБЗАЦ РЕШЕНИЯ ПРОБЛЕМЫ ОПИСАНИЕ________________ -->
+    </div>
+    <div>
+      <!-- ______________СЛАЙДЕР С КАРТОЧКАМИ НЯНЬ_______________ Лена заполняет с бутстрапа 5шт-->
+    </div>
+    <div>
+      <!-- ______________ФИЛЬТР ИЩУ НЯНЮ: РАЙОН, ОПЛАТА, ОПЫТ ОБЩЕНИЯ С ЖИВОТНЫМИ, НЯНЯ С ВЫЕЗДОМ ИЛИ БЕЗ, ВОЗРАСТ НЯНИ, ПОЛ, ОЛ ИН КЛЮЗИВ ИЛИ ВСЕ СВОЕ, ВЫБОР ЖИВОТНЫХ_______________ Настя-->
+    </div>
+    <div>
+      <!-- ______________ФОРМА РЕГИСТРАЦИИ_______________ Имя, емэйл, телефон, предпочитаемый способ связи, животное, сроки, доп инфа о животном Юля-->
+    </div>
+    <footer>
+      <div class="footer_info">
+        <a href="#menu">О нас</a>
+        <a href="#res"></a>
+        <a href="#">Где нас найти</a>
+        <a href="">Хочу стать няней</a>
+        <div class="social-links">
+          <a href=""><img src="./src/pictures/facebook.png" /></a>
+          <a href=""><img src="./src/pictures/telegram.png" /></a
+          ><a href=""><img src="./src/pictures/youtube.png" /></a>
+        </div>
       </div>
-      <div>
-        <!-- ______________АБЗАЦ РЕШЕНИЯ ПРОБЛЕМЫ ОПИСАНИЕ________________ -->
-      </div>
-      <div>
-        <!-- ______________СЛАЙДЕР С КАРТОЧКАМИ НЯНЬ_______________ Лена заполняет с бутстрапа 5шт-->
-      </div>
-      <div>
-        <!-- ______________ФИЛЬТР ИЩУ НЯНЮ: РАЙОН, ОПЛАТА, ОПЫТ ОБЩЕНИЯ С ЖИВОТНЫМИ, НЯНЯ С ВЫЕЗДОМ ИЛИ БЕЗ, ВОЗРАСТ НЯНИ, ПОЛ, ОЛ ИН КЛЮЗИВ ИЛИ ВСЕ СВОЕ, ВЫБОР ЖИВОТНЫХ_______________ Настя-->
-      </div>
-      <div>
-        <!-- ______________ФОРМА РЕГИСТРАЦИИ_______________ Имя, емэйл, телефон, предпочитаемый способ связи, животное, сроки, доп инфа о животном Юля-->
-      </div>
-    <footer></footer>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
