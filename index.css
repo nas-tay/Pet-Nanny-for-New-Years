@@ -21,3 +21,12 @@
 .registration-form-header {
     color: #406c35;
 }
+
+.registration-form-button-container {
+    display: flex;
+    justify-content: center;
+}
+.myButton {
+    background-color:hsl(108, 19%, 63%) ;
+    color: white;
+}
