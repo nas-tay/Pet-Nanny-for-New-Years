@@ -169,8 +169,10 @@ a:hover {
 
 /* ____________PART OF PAIN__________ */
 .ball {
+  width: 50vw;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 .ball a {
   width: 100%;
