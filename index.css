@@ -1,2 +1,23 @@
 /* ____________HEADER__________ */
+
+
+
 /* ____________FOOTER__________ */
+
+
+
+/* ____________REGISTRATION FORM__________ */
+
+.registration-form {
+    padding: 1%;
+    width: 70%;
+    background-color: #f7f9f2;
+}
+
+.registration-form-header-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+.registration-form-header {
+    color: #406c35;
+}
