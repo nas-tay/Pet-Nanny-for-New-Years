@@ -22,7 +22,7 @@ function searchResult(element) {
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
-  let url = "https://raw.githubusercontent.com/elena-kundera/Hakaton/main/src/nanies.json";
+  let url = "https://raw.githubusercontent.com/nas-tay/Pet-Nanny-for-New-Years/main/src/nanies.json";
   let response = await fetch(url);
   cards = await response.json();
   firstCards = cards;
