@@ -58,7 +58,7 @@ function createObject() {
     city: document.querySelector("#city").value,
     experience: [],
     jobFormat: [],
-    level: [],
+    pet: [],
     minSalary: +document.querySelector("#minSalary").value,
     maxSalary: +document.querySelector("#maxSalary").value,
   };
@@ -72,11 +72,11 @@ function createObject() {
     });
   }
 
-  const level = document.querySelectorAll(".level");
+  const pet = document.querySelectorAll(".pet");
   const jobFormat = document.querySelectorAll(".format");
   const experience = document.querySelectorAll(".experience");
 
-  getFilter(level, filterObject.level);
+  getFilter(pet, filterObject.pet);
   getFilter(jobFormat, filterObject.jobFormat);
   getFilter(experience, filterObject.experience);
 
@@ -116,10 +116,10 @@ function createObject() {
     searchCity();
   }
 
-  function searchLevel() {
+  function searchPet() {
     list.innerHTML = "";
     for (card of cards) {
-      if (card.pet == filterObject.level) {
+      if (card.pet == filterObject.pet) {
         searchResult(card);
         newCards.push(card);
       }
@@ -127,8 +127,10 @@ function createObject() {
     cards = newCards;
     newCards = [];
   }
-  if (filterObject.level.length !== 0) {
-    searchLevel();
+  if (filterObject.pet.length !== 0) {
+    searchPet();
+    console.log(filterObject.experience);
+    console.log(card.experience);
   }
 
   function searchSalaryFact() {
