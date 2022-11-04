@@ -30,28 +30,28 @@
   {
     "name": "Вера",
     "pet": "морские свинки",
-    "keyWords": ["морские свинки", "Бибирево", "со своей едой", "С выездом", "На дому"],
+    "keyWords": ["морские свинки", "Бибирево", "со своей едой", "На дому"],
     "area": "Бибирево",
     "experience": "5 лет",
     "salary": "1500",
     "age": "29",
     "sex": "female",
     "food": "со своей едой",
-    "jobFormat": ["С выездом", "На дому"],
+    "jobFormat": ["На дому"],
     "photo": "https://i0.wp.com/squeakdreams.com/wp-content/uploads/2020/11/Me.jpg?w=800&ssl=1",
     "id": "2"
   },
   {
     "name": "Анна",
     "pet": "попугаи",
-    "keyWords": ["попугаи", "Бибирево", "со своей едой", "С выездом", "На дому"],
+    "keyWords": ["попугаи", "Бибирево", "со своей едой", "На дому"],
     "area": "Войковский",
     "experience": "9 лет",
     "salary": "500",
     "age": "25",
     "sex": "female",
     "food": "со своей едой",
-    "jobFormat": ["С выездом", "На дому"],
+    "jobFormat": ["На дому"],
     "photo": "https://img.freepik.com/premium-photo/mom-son-feed-parrot-park-spending-time-with-kids-concept_247622-19504.jpg?w=360",
     "id": "3"
   }

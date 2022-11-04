@@ -12,8 +12,8 @@ function searchResult(element) {
                 <div class="search__card-title">${element.age} лет</div>
                 <div class="search__card-subtitle">Район</div>
                 <div class="search__card-experience">${element.area}</div>
-                <div class="search__card-subtitle">Питание</div>
-                <div class="search__card-experience">${element.food}</div>
+                <div class="search__card-subtitle">Опыт общения с животными</div>
+                <div class="search__card-experience">${element.experience}</div>
                 <div class="search__card-subtitle">Оплата</div>
                 <div class="search__card-salary">${element.salary} руб/сутки</div>
             </div>
@@ -129,8 +129,6 @@ function createObject() {
   }
   if (filterObject.pet.length !== 0) {
     searchPet();
-    console.log(filterObject.experience);
-    console.log(card.experience);
   }
 
   function searchSalaryFact() {
@@ -148,25 +146,23 @@ function createObject() {
 
   searchSalaryFact();
 
-  function serchSalary() {
+  function searchSalary() {
     list.innerHTML = "";
     for (card of cards) {
-      if (filterObject.minSalary !== 0 && card.salary >= filterObject.minSalary) {
-        if (filterObject.maxSalary !== 0 && card.salary <= filterObject.minSalary) {
-          searchResult(card);
-          newCards.push(card);
-        }
-        if (filterObject.maxSalary == 0) {
+      if (filterObject.minSalary !== 0 && filterObject.maxSalary !== 0) {
+        if (card.salary >= filterObject.minSalary && card.salary <= filterObject.maxSalary) {
           searchResult(card);
           newCards.push(card);
         }
       }
-      if (filterObject.maxSalary !== 0 && card.salary <= filterObject.maxSalary) {
+      if (filterObject.maxSalary == 0) {
         if (filterObject.minSalary !== 0 && card.salary >= filterObject.minSalary) {
           searchResult(card);
           newCards.push(card);
         }
-        if (filterObject.minSalary == 0) {
+      }
+      if (filterObject.minSalary == 0) {
+        if (filterObject.maxSalary !== 0 && card.salary <= filterObject.maxSalary) {
           searchResult(card);
           newCards.push(card);
         }
@@ -177,7 +173,7 @@ function createObject() {
   }
 
   if (filterObject.minSalary !== 0 || filterObject.maxSalary !== 0) {
-    serchSalary();
+    searchSalary();
   }
 
   function searchExperience() {
@@ -220,7 +216,7 @@ function createObject() {
     list.innerHTML = "";
     for (card of cards) {
       if (document.querySelector("#distant").checked) {
-        const search = new RegExp("удален", "gi");
+        const search = new RegExp("С выездом", "gi");
         const rez = search.test(card.jobFormat);
         if (rez) {
           searchResult(card);
@@ -228,7 +224,7 @@ function createObject() {
         }
       }
       if (document.querySelector("#home").checked) {
-        const search = new RegExp("офис", "gi");
+        const search = new RegExp("На дому", "gi");
         const rez = search.test(card.jobFormat);
         if (rez) {
           searchResult(card);
@@ -266,6 +262,9 @@ btnReboot.addEventListener("click", () => {
   const inputs = document.querySelectorAll("input");
   inputs.forEach((item) => {
     item.checked = false;
+    if (item.className == "filter__input-salary") {
+      item.value = "";
+    }
   });
   //   document.querySelector("#inputSearchApp").value = "";
   document.querySelector("#city").value = "";
